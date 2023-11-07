@@ -33,7 +33,7 @@ def apply_percent(price: float, percent: float):
 - Créer des tests unitaires pour la fonction
     - vous devez tester à minima que la fonction renvoie la bonne valeur pour :
         - price = 100, percent = 20,
-        - price = 55,25, percent = 5.5,
+        - price = 55.25, percent = 5.5,
         - price = 0, percent = 10,
         - price = -10.99, percent = 10,
         - price = 'wrong value', percent = 10
