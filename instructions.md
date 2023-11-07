@@ -42,8 +42,7 @@ def apply_percent(price: float, percent: float):
 
 - Votre fonction et vos tests doivent être exécutables via une commande Docker,
   - Aide : 
-    - `docker run -it tp-docker python src/main.py 100 20`
-      - permet d'exécuter le script main.py, avec les arguments 100 et 20 
-      - 
+    - (avec l'image tp-docker préalablement buildée) `docker run -it tp-docker python src/main.py 100 20`
+    - permet d'exécuter le script main.py, avec les arguments 100 et 20
 
 - Une documentation doit contenir un readme.md explicite (permettant de comprendre l'objet du projet, comment le faire tourner)
